@@ -27,3 +27,14 @@ The map needs internet access to Leaflet (unpkg.com) and OpenStreetMap tile serv
 
 Published places: 冯爸面馆（陕西南路31号） and 谈灵农家柴爿菜饭（浦东新区川沙新镇水闸南路7号）. Location provenance and uncertainty are recorded in each entry; the 冯爸 pin is approximate. GitHub Pages is enabled at https://bioxagi.github.io/ShanghaiMap/.
 
+
+## Compact cards and personal notebook
+
+Each card shows a short description, up to three sourced food highlights, and Locate, Video, Save, and Details actions. Click a card or use Details in its map popup for the address, reference photo, sources, and My notes.
+
+My notes, rating, saved state, and visit status use a separate browser-local notebook keyed by stable restaurant IDs. They are never included in Export places or the published catalog. Back up my notes exports them explicitly; Restore notes merges missing personal entries and preserves existing notes. This is local storage, not a password-protected account: people using the same browser profile can access it. There is no cross-device synchronization.
+
+Manage places reveals local catalog editing, importing, and exporting. This is a convenience view, not an administrator login. Website publication still requires a GitHub commit. Place imports preserve IDs so a corresponding personal backup can reconnect to those places. Existing legacy place/source notes are not automatically classified as private. Use My notes for personal text.
+
+Verified: JavaScript syntax; compact card and details rendering; saving and reloading personal note, rating, status; saved-place filtering; management controls; personal export includes personal text while place export and website source exclude it.
+
