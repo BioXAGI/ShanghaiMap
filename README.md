@@ -21,9 +21,9 @@ In this repository, open **Settings → Pages → Build and deployment**. Select
 
 ## Data and limitations
 
-Entries and images are stored in localStorage on the current browser and site origin; they do not sync to GitHub or another device. Export backups regularly, especially before changing browsers or URLs. Storage limits vary; the app reports failed writes instead of claiming to save them. Imported backups can contain personal notes and images; keep them private as appropriate.
+The site includes two published restaurant entries with pins, source links, and a storefront reference image. New browsers receive this published collection automatically. Existing matching entries are preserved without duplication. Each published batch is imported once, so local edits and deletions survive reloads. Personal additions and edits are stored in localStorage on the current browser and site origin; they do not automatically sync to GitHub or another device. Export backups regularly, especially before changing browsers or URLs. Storage limits vary; the app reports failed writes instead of claiming to save them. Imported backups can contain personal notes and images; keep them private as appropriate.
 
 The map needs internet access to Leaflet (unpkg.com) and OpenStreetMap tile servers. Core notebook functions continue when the map library is unavailable. These services receive normal network request information. Address searches are sent to Amap only when you click Find address. Pins use WGS84; coordinates from Chinese map services may need adjustment.
 
-The app begins empty: it contains no invented restaurant recommendations or unverified locations.
+Published places: 冯爸面馆（陕西南路31号） and 谈灵农家柴爿菜饭（浦东新区川沙新镇水闸南路7号）. Location provenance and uncertainty are recorded in each entry; the 冯爸 pin is approximate. GitHub Pages is enabled at https://bioxagi.github.io/ShanghaiMap/.
 
