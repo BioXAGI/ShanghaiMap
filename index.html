@@ -65,7 +65,7 @@ function myEntry(id){return Object.hasOwn(personal,id)?personal[id]:{saved:false
 function savePersonal(next){if(personalBlocked){notify('Personal notebook storage is unreadable. Existing data has been preserved.');return false}try{localStorage.setItem(PERSONAL_KEY,JSON.stringify(next));personal=next;return true}catch(e){notify('Could not save your notes. Browser storage may be full or disabled.');return false}}
 const summaries={
   '3f2ee4d2-6296-442c-a106-15e0d254a9c4':{description:'陕西南路上的本帮面馆，一碗面配多样浇头。',dishes:['葱烤大排面','葱油拌面'],area:'陕西南路',source:'https://sghexport.shobserver.com/html/baijiahao/2024/04/03/1289073.html',video:'https://www.youtube.com/watch?v=j_b_Mefqy6Q',approximate:true},
-  '965e1367-1c14-4935-83e9-4635dc6f39e3':{description:'川沙的农家菜饭小店，主打菜饭与本帮家常菜。',dishes:['走油肉菜饭','精肉炖蛋','三鲜汤'],area:'浦东 · 川沙',source:'https://m.dianping.com/shop/15955049?msource=applemaps',video:'https://www.youtube.com/watch?v=-la1yZTNKSQ&t=354s',videoLabel:'Video 05:54',approximate:true}
+  '965e1367-1c14-4935-83e9-4635dc6f39e3':{description:'川沙的农家菜饭小店，主打菜饭与本帮家常菜。',dishes:['走油肉菜饭','精肉炖蛋','三鲜汤'],area:'浦东 · 川沙',source:'https://m.dianping.com/shop/15955049?msource=applemaps',video:'https://www.youtube.com/watch?v=-la1yZTNKSQ&t=354s',videoLabel:'Video 05:54',approximate:true},
 
   '36468069-2054-46e1-a8b2-958afebf9ea9':{description:'黄河路上的汤包店，主打小笼与上海点心。',dishes:['蟹粉鲜肉汤包','鲜肉小馄饨','鸡鸭血汤'],area:'黄浦 · 人民广场',source:'https://www.amap.com/place/B0GUKUG3HV',approximate:true},
   'a347b381-cc0b-49f8-802e-a8b1739c0573':{description:'茂名南路的汤包小店，招牌为汤包与蟹粉点心。',dishes:['汤包','蟹粉汤包','蟹肉馄饨'],area:'黄浦 · 淮海路',source:'https://ditu.amap.com/place/B0K6P7011E',approximate:true},
