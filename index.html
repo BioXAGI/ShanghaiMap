@@ -55,7 +55,7 @@ if(!storageUnreadable){
 function node(tag,text,cls){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n}
 function button(text,fn){const b=node('button',text);b.type='button';b.onclick=fn;return b}
 function link(text,url){const a=node('a',text,'button');a.href=url;a.target='_blank';a.rel='noopener noreferrer';return a}
-function filtered(){const query=$('search').value.toLocaleLowerCase().trim();return places.filter(p=>(!$('myFilter').checked||myEntry(p.id).saved)&&(!$('statusFilter').value||myEntry(p.id).status===$('statusFilter').value)&&(!$('cuisineFilter').value||p.cuisine===$('cuisineFilter').value)&&[p.name,p.cuisine,p.address,p.district,p.notes].join(' ').toLocaleLowerCase().includes(query))}
+function filtered(){const query=$('search').value.toLocaleLowerCase().trim();return places.filter(p=>(!$('myFilter').checked||myEntry(p.id).saved)&&(!$('statusFilter').value||myEntry(p.id).status===$('statusFilter').value)&&(!$('cuisineFilter').value||p.cuisine===$('cuisineFilter').value)&&[p.name,p.cuisine,p.address,p.district,p.notes,summary(p).description,...summary(p).dishes].join(' ').toLocaleLowerCase().includes(query))}
 const PERSONAL_KEY='shanghai-food-map-personal-v1';
 let personal={},personalBlocked=false,manageMode=false,detailId=null;
 function validPersonal(v){return v&&typeof v==='object'&&!Array.isArray(v)&&Object.entries(v).every(([k,p])=>k.length<100&&p&&typeof p==='object'&&typeof p.saved==='boolean'&&typeof p.note==='string'&&p.note.length<=4000&&['Want to try','Visited','Favorite'].includes(p.status)&&Number.isInteger(p.rating)&&p.rating>=0&&p.rating<=5)}
