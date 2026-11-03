@@ -220,7 +220,10 @@ def handler_for(studio):
             self.send_header('Content-Length', str(len(body)))
             self.send_header('Cache-Control', 'no-store')
             self.send_header('X-Content-Type-Options', 'nosniff')
-            self.send_header('Referrer-Policy', 'no-referrer')
+            # OSM requires a Referer for browser tile requests. Send only the
+            # local origin, never paths, queries, reviews, or credentials.
+            map_page = urllib.parse.urlsplit(self.path).path in ('/map', '/preview', '/download/index.html')
+            self.send_header('Referrer-Policy', 'strict-origin-when-cross-origin' if map_page else 'no-referrer')
             self.end_headers()
             self.wfile.write(body)
 
