@@ -42,3 +42,7 @@ Verified: JavaScript syntax; compact card and details rendering; saving and relo
 ## Experimental YouTube discovery
 
 See [local-first testing and Windows PowerShell instructions](docs/youtube-discovery.md) for offline fixture tests, a key-free dry run, and an optional bounded live run. Discovery is manual only and produces review candidates; it does not update map pins.
+
+## Local editorial dashboard
+
+Run `python scripts/local_dashboard.py` and open http://127.0.0.1:8081/ to discover, review, and prepare approved restaurant additions. See [Windows setup and explicit online publishing](docs/local-dashboard.md).

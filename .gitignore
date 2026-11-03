@@ -4,3 +4,4 @@ __pycache__/
 .env.*
 data/youtube_candidates*.json
 .test-work/
+.local/

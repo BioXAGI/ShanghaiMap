@@ -22,7 +22,7 @@ $result.candidates | Select-Object id, city_candidate, status
 
 If already cloned, enter that checkout and use `git switch feature/youtube-2026-discovery` then `git pull --ff-only` before testing. If the `py` launcher is unavailable, use `python` in place of `py -3`, after confirming its version.
 
-Expected: **19 tests pass**, followed by `Saved 2 video candidates from 8 searches ... (dry-run)`. The JSON has `schema_version: 1`, `mode: dry-run`, and synthetic `shanghai` / `beijing` candidates, both `needs_human_review`. This is a fixture result, not evidence of real restaurants. Tests block network calls and exercise the CLI in a subprocess without a key. Temporary synthetic test files use an ignored `.test-work` directory with inherited Windows permissions and are removed after each test.
+Expected: **30 tests pass**, followed by `Saved 2 video candidates from 8 searches ... (dry-run)`. The JSON has `schema_version: 1`, `mode: dry-run`, and synthetic `shanghai` / `beijing` candidates, both `needs_human_review`. This is a fixture result, not evidence of real restaurants. Tests block network calls and exercise the CLI in a subprocess without a key. Temporary synthetic test files use an ignored `.test-work` directory with inherited Windows permissions and are removed after each test.
 
 The dry run never reads the API key and never calls YouTube. It uses `tests/fixtures/youtube.json`, a synthetic dataset with a fixed clock (`2026-11-01T12:00:00Z`), so repeated runs produce identical JSON. Its default output is separate from live output. The fixture covers duplicate and unrelated videos, other years, future/invalid timestamps, unavailable metadata, spam, pagination, and disabled comments.
 
@@ -72,3 +72,5 @@ The UTF-8 JSON includes schema version, run mode, timestamp, requested cities, s
 Only aggregate relevant-comment counts and up to three top-level comment links are retained. Comment bodies and commenter details are not saved. Likely promotional links/messages and comments over 600 characters are filtered heuristically. Comment links can expire. Video title, date, channel, view count, and description excerpt are transient metadata; no full video or image is downloaded. Local files do not expire automatically: delete stale live output yourself and review YouTube API access, attribution, and retention policies before broader use.
 
 Every candidate has `restaurant_name: null`, `address: null`, and `status: needs_human_review`. Verify names, branches, addresses, and coordinates manually before adding entries to the public catalog. Leaflet coordinates must be WGS84 (not unconverted GCJ-02). The website never receives the API key.
+
+For a local browser dashboard with saved Google sign-in, candidate review, and map preparation, see [Local dashboard](local-dashboard.md).
