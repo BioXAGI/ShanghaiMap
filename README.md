@@ -38,3 +38,7 @@ Manage places reveals local catalog editing, importing, and exporting. This is a
 
 Verified: JavaScript syntax; compact card and details rendering; saving and reloading personal note, rating, status; saved-place filtering; management controls; personal export includes personal text while place export and website source exclude it.
 
+
+## Experimental YouTube discovery
+
+See [local-first testing and Windows PowerShell instructions](docs/youtube-discovery.md) for offline fixture tests, a key-free dry run, and an optional bounded live run. Discovery is manual only and produces review candidates; it does not update map pins.
