@@ -141,7 +141,14 @@
       "lng": 121.479303,
       "approximate": true,
       "youtubeUrl": "https://www.youtube.com/watch?v=i1rR0De5S1c",
-      "youtubeTime": ""
+      "youtubeTime": "",
+      "relatedVideos": [
+        {
+          "url": "https://www.youtube.com/watch?v=nMS0zJgeDJk",
+          "label": "海上心聲",
+          "time": ""
+        }
+      ]
     },
     {
       "id": "3132adf5-9a06-4464-b4a1-8b6ecfbbd850",
@@ -495,6 +502,660 @@
       "approximate": true,
       "youtubeUrl": "https://www.youtube.com/watch?v=vILK7pJPU2I",
       "youtubeTime": "5:45"
+    },
+    {
+      "name": "功德林（南京西路店）",
+      "address": "上海市黄浦区南京西路445号",
+      "district": "黄浦",
+      "cuisine": "素食",
+      "description": "南京西路上的老字号素食馆，以仿荤素菜和传统点心为特色。",
+      "dishes": [
+        "素蟹粉",
+        "素熏鱼",
+        "素烧麦"
+      ],
+      "lat": 31.232742,
+      "lng": 121.463992,
+      "id": "a402ea32-2444-5e69-8911-f3ebd4c6fbe3",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=pEtzwErJC6g",
+      "youtubeTime": "0:30"
+    },
+    {
+      "name": "蓁豐道 BIRD HUT（襄阳南路店）",
+      "address": "上海市徐汇区襄阳南路174号",
+      "district": "徐汇",
+      "cuisine": "港式烧腊",
+      "description": "襄阳南路的港式烧腊小店，视频点了烧味三拼饭与冻柠茶。",
+      "dishes": [
+        "烧味三拼饭",
+        "冻柠茶"
+      ],
+      "lat": 31.215166,
+      "lng": 121.452485,
+      "id": "226168cc-134e-5711-8556-e1f1a94bb204",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=17u4rYfXfeQ",
+      "youtubeTime": "1:15"
+    },
+    {
+      "name": "小团圆糖水铺（襄阳南路店）",
+      "address": "上海市徐汇区襄阳南路92-2号",
+      "district": "徐汇",
+      "cuisine": "广式糖水",
+      "description": "襄阳南路的小型广式糖水铺，适合逛街后吃一碗甜品。",
+      "dishes": [],
+      "lat": 31.216516,
+      "lng": 121.452246,
+      "id": "132c57f4-778f-5153-b52b-20d6ad9740a5",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=17u4rYfXfeQ",
+      "youtubeTime": "4:45"
+    },
+    {
+      "name": "寿司大兄弟 SUSHI BROTHER（鸿寿坊店）",
+      "address": "上海市普陀区新会路236弄1号鸿寿坊食集1层",
+      "district": "普陀",
+      "cuisine": "日式寿司",
+      "description": "鸿寿坊食集里的板前寿司店，视频体验了十二贯寿司套餐。",
+      "dishes": [
+        "寿司套餐",
+        "鹅肝寿司"
+      ],
+      "lat": 31.242693,
+      "lng": 121.435747,
+      "id": "cbe0c017-c6c9-5776-b45b-5b53a48cc569",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=hC7WRjIQXfo",
+      "youtubeTime": "2:15"
+    },
+    {
+      "name": "七重天老上海餐厅（南京东路店）",
+      "address": "上海市黄浦区南京东路627号七重天宾馆7楼",
+      "district": "黄浦",
+      "cuisine": "本帮菜",
+      "description": "南京路历史建筑七楼的老上海餐厅，保留舞厅式空间，供应传统本帮菜。",
+      "dishes": [
+        "素鸡",
+        "拌面"
+      ],
+      "lat": 31.237014,
+      "lng": 121.47407,
+      "id": "bb9387e0-392e-59f0-9dcd-04a32a822833",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=yjHrM_wibUg",
+      "youtubeTime": "2:00"
+    },
+    {
+      "name": "德大西菜社（山西南路店）",
+      "address": "上海市黄浦区山西南路193号",
+      "district": "黄浦",
+      "cuisine": "海派西餐／咖啡",
+      "description": "老字号德大的山西南路门店，视频尝试可吃的咖啡杯配冰淇淋。",
+      "dishes": [
+        "可吃咖啡杯",
+        "冰淇淋咖啡"
+      ],
+      "lat": 31.239269,
+      "lng": 121.477597,
+      "id": "0165b8d7-f317-5f1d-a16a-2f90a4b5b196",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=yjHrM_wibUg",
+      "youtubeTime": "7:45"
+    },
+    {
+      "name": "叁福食堂",
+      "address": "上海市长宁区中山西路702号美天商店34号铺",
+      "district": "长宁",
+      "cuisine": "日式简餐",
+      "description": "美天天山菜市场里的小食堂，主打咖喱蛋包饭和日式小食。",
+      "dishes": [
+        "咖喱蛋包饭",
+        "海蛎饼"
+      ],
+      "lat": 31.210149,
+      "lng": 121.406872,
+      "id": "f6836b33-5e54-5fb6-9ef8-f528a1ce3652",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=9GyMRxgvOz4",
+      "youtubeTime": "5:15"
+    },
+    {
+      "name": "高桥食品厂门市部",
+      "address": "上海市浦东新区高桥西街4号（近树德街）",
+      "district": "浦东",
+      "cuisine": "上海传统糕点",
+      "description": "高桥古镇的传统糕点门市部，供应高桥松饼等本地点心。",
+      "dishes": [
+        "高桥松饼"
+      ],
+      "lat": 31.34713,
+      "lng": 121.577909,
+      "id": "7f55f2f7-c749-5360-81e4-bdf03b0f045e",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=yEC1yej7xHA",
+      "youtubeTime": "8:15"
+    },
+    {
+      "name": "新雅粤菜馆（南京东路总店）",
+      "address": "上海市黄浦区南京东路719号",
+      "district": "黄浦 · 南京东路",
+      "cuisine": "粤菜 / 广式点心",
+      "description": "南京东路上的百年粤菜馆，供应粤式菜肴与广式点心。",
+      "dishes": [
+        "水晶虾仁",
+        "蚝油牛肉",
+        "叉烧酥"
+      ],
+      "lat": 31.236552,
+      "lng": 121.472448,
+      "id": "4bd5edf3-151e-5314-b0f5-0b50aee3c9c9",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=WdUNMaix4S0",
+      "youtubeTime": ""
+    },
+    {
+      "name": "杏花楼（福州路总店）",
+      "address": "上海市黄浦区福州路343号",
+      "district": "黄浦 · 福州路",
+      "cuisine": "粤菜 / 中式糕点",
+      "description": "福州路上的老字号粤菜馆，设点心柜台，供应传统糕点与广式点心。",
+      "dishes": [
+        "黄松糕",
+        "糖沙翁",
+        "肉松咸蛋黄青团"
+      ],
+      "lat": 31.236037,
+      "lng": 121.479376,
+      "id": "adea889d-7142-51b8-a6f5-763e464fdd8f",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=zBHXrjBUgtE",
+      "youtubeTime": ""
+    },
+    {
+      "name": "日月光中心（打浦桥）",
+      "address": "上海市黄浦区徐家汇路618号",
+      "district": "黄浦 · 打浦桥",
+      "cuisine": "商场餐饮 / 多种风味",
+      "description": "打浦桥地铁站上盖的综合商场，适合集中探索不同餐饮店。此点标记商场，不代表已核实内部单店。",
+      "dishes": [],
+      "lat": 31.2086,
+      "lng": 121.464452,
+      "id": "22fb555a-4519-5289-8c2b-4eaf109ff62a",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=j4UqlCus4bo",
+      "youtubeTime": ""
+    },
+    {
+      "name": "うちの食堂（上海Apita店）",
+      "address": "上海市长宁区茅台路179号金虹桥国际中心商场B2层LG2531、LG2533",
+      "district": "长宁 · 金虹桥",
+      "cuisine": "日式食堂 / 日式简餐",
+      "description": "金虹桥商场地下二层的日式食堂，可自选家常菜、炸物与汤面。",
+      "dishes": [
+        "玉子烧",
+        "乌冬面",
+        "日式炸物"
+      ],
+      "lat": 31.211006,
+      "lng": 121.397911,
+      "id": "cd1b46d9-54e2-5b2d-8760-1f62f1bd844c",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=Rz5YroiSDZs",
+      "youtubeTime": "1:30"
+    },
+    {
+      "name": "康乐汇社区长者食堂",
+      "address": "上海市徐汇区浦北路988号",
+      "district": "徐汇",
+      "cuisine": "社区食堂",
+      "description": "康健街道社区食堂，供应家常菜及上海传统点心。",
+      "dishes": [
+        "生煎",
+        "小笼包",
+        "汤圆"
+      ],
+      "lat": 31.15363,
+      "lng": 121.408103,
+      "id": "3e855b8f-4f0f-5a69-aef1-566e6b76b41b",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=wKppkXAOnqg",
+      "youtubeTime": ""
+    },
+    {
+      "name": "泗泾夜市（三湘商业广场店）",
+      "address": "上海市松江区泗宝路2号三湘商业广场",
+      "district": "松江",
+      "cuisine": "夜市小吃",
+      "description": "泗泾站旁的露天夜市，汇集各地小吃摊位。",
+      "dishes": [
+        "夜市小吃"
+      ],
+      "lat": 31.119118,
+      "lng": 121.256247,
+      "id": "a521cadc-52a1-5a18-87a3-0094bcd98296",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=krsFnWzXkCs",
+      "youtubeTime": ""
+    },
+    {
+      "name": "全球岛直采海鲜自助（环宇城MAX店）",
+      "address": "上海市普陀区铜川路699弄1号上海真如环宇城MAX 5楼",
+      "district": "普陀",
+      "cuisine": "海鲜自助",
+      "description": "真如环宇城的海鲜自助餐厅，分区供应海鲜、芝士及热食。",
+      "dishes": [
+        "海鲜",
+        "三文鱼",
+        "芝士"
+      ],
+      "lat": 31.252228,
+      "lng": 121.404209,
+      "id": "6b576bd5-23c0-5703-8089-86c6525b51dd",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=XTsLr1eb48k",
+      "youtubeTime": ""
+    },
+    {
+      "name": "水岸意大利餐厅（上海西岸美高梅酒店）",
+      "address": "上海市徐汇区云锦路688号上海西岸美高梅酒店57层",
+      "district": "徐汇",
+      "cuisine": "意大利菜",
+      "description": "西岸美高梅57层的江景意大利餐厅，视频探访自助餐体验。",
+      "dishes": [
+        "披萨",
+        "意面",
+        "意式甜点"
+      ],
+      "lat": 31.164396,
+      "lng": 121.453651,
+      "id": "c31b8b5c-b79e-5d7b-bd49-518427d7250e",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=njHvjeev5M4",
+      "youtubeTime": ""
+    },
+    {
+      "name": "八号院儿（夏都小镇）",
+      "address": "上海市青浦区谢卫路1468号夏都小镇步行街A102-103号",
+      "district": "青浦",
+      "cuisine": "陕西菜",
+      "description": "夏都小镇的陕西风味面馆，供应油泼面与肉夹馍。",
+      "dishes": [
+        "油泼biangbiang面",
+        "肉夹馍"
+      ],
+      "lat": 31.173986,
+      "lng": 121.287526,
+      "id": "2d2621a2-a7a6-595d-9398-d1bacba7a245",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=t_HC8IzWcb0",
+      "youtubeTime": ""
+    },
+    {
+      "name": "泰晤士西餐社（控江路总店）",
+      "address": "上海市杨浦区控江路766号",
+      "district": "杨浦",
+      "cuisine": "海派西餐",
+      "description": "社区里的老牌海派西餐社，保留炸猪排、罗宋汤等经典口味。",
+      "dishes": [
+        "炸猪排",
+        "罗宋汤",
+        "土豆色拉"
+      ],
+      "lat": 31.285658,
+      "lng": 121.533411,
+      "id": "aae6b5b4-9eb6-548a-ac84-9adac107fd06",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=vjwjC4leb1M",
+      "youtubeTime": "0:45"
+    },
+    {
+      "name": "水丰路鸡蛋饼（延吉东路店）",
+      "address": "上海市杨浦区营口路4号",
+      "district": "杨浦",
+      "cuisine": "上海小吃",
+      "description": "延吉东路营口路口的鸡蛋饼小店，现摊面饼搭配甜面酱。",
+      "dishes": [
+        "鸡蛋饼"
+      ],
+      "lat": 31.287792,
+      "lng": 121.531428,
+      "id": "65fc6bb5-828f-565c-98ad-8a17508513d4",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=vjwjC4leb1M",
+      "youtubeTime": "7:35"
+    },
+    {
+      "name": "美新点心店",
+      "address": "上海市静安区陕西北路105号",
+      "district": "静安",
+      "cuisine": "上海点心",
+      "description": "陕西北路上的老字号点心店，夏季供应上海冷面。",
+      "dishes": [
+        "冷面",
+        "汤圆",
+        "八宝饭"
+      ],
+      "lat": 31.227445,
+      "lng": 121.451699,
+      "id": "d0508d78-1cb6-591b-8bc1-03dba478fa14",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=i0JPE6HUmCA",
+      "youtubeTime": "4:30"
+    },
+    {
+      "name": "玉华饮食店（茅台路店）",
+      "address": "上海市长宁区茅台路298号1层B室",
+      "district": "长宁",
+      "cuisine": "上海小吃",
+      "description": "仙霞社区的老牌饮食店，供应冷面、锅贴及家常浇头。",
+      "dishes": [
+        "冷面",
+        "糖醋小肉",
+        "锅贴"
+      ],
+      "lat": 31.211795,
+      "lng": 121.39332,
+      "id": "83b8a68d-ac88-5487-898e-9cc0a0f97e43",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=i0JPE6HUmCA",
+      "youtubeTime": "0:45"
+    },
+    {
+      "name": "四如春食府（石泉路店）",
+      "address": "上海市普陀区石泉路72号",
+      "district": "普陀",
+      "cuisine": "上海小吃",
+      "description": "石泉路的老字号食府，以上海冷面和丰富浇头见长。",
+      "dishes": [
+        "冷面",
+        "辣肉浇头",
+        "素鸡"
+      ],
+      "lat": 31.254195,
+      "lng": 121.424215,
+      "id": "077ab85d-d7e8-50d8-bad8-592bc918284d",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=i0JPE6HUmCA",
+      "youtubeTime": "7:30"
+    },
+    {
+      "name": "品回味清真西北菜（上海长寿路旗舰店）",
+      "address": "上海市普陀区长寿路285号2楼",
+      "district": "普陀",
+      "cuisine": "清真西北菜",
+      "description": "长寿路的清真西北菜餐厅，楼下设有西域风味食品市集。",
+      "dishes": [
+        "牛肉面",
+        "牛肉锅贴",
+        "牛肉砂锅"
+      ],
+      "lat": 31.242813,
+      "lng": 121.434215,
+      "id": "7b020019-d971-5369-bd5a-3e44f6644c45",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=niAFlpuRSko",
+      "youtubeTime": "5:15"
+    },
+    {
+      "name": "水丰锅贴（延吉东路店）",
+      "address": "上海市杨浦区延吉东路450号1-4",
+      "district": "杨浦",
+      "cuisine": "上海小吃",
+      "description": "供应现煎鲜肉锅贴的街边小店。地址按2026年11月杨浦区报道更新。",
+      "dishes": [
+        "鲜肉锅贴"
+      ],
+      "lat": 31.288993,
+      "lng": 121.534683,
+      "id": "cdeddc1d-4c32-5420-8515-20678140fb1e",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=vjwjC4leb1M",
+      "youtubeTime": "5:20"
+    },
+    {
+      "name": "味翠餐厅（上海虹桥宾馆）",
+      "address": "上海市长宁区延安西路2000号上海虹桥宾馆1层",
+      "district": "长宁",
+      "cuisine": "苏式面与本帮菜",
+      "description": "虹桥宾馆内的餐厅，午市供应苏式面，可顺访宾馆庭院。",
+      "dishes": [
+        "苏式面"
+      ],
+      "lat": 31.205836,
+      "lng": 121.405433,
+      "id": "242687aa-c189-5148-b175-ae5d3174aecd",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=k8gpV_d1lMw",
+      "youtubeTime": ""
+    },
+    {
+      "name": "金泽咖喱（新世纪广场店）",
+      "address": "上海市长宁区兴义路48号新世纪广场C栋308室",
+      "district": "长宁",
+      "cuisine": "日式咖喱",
+      "description": "新世纪广场内的咖喱小店，供应浓稠黑咖喱与各式定食。",
+      "dishes": [
+        "牛肉咖喱饭",
+        "炸猪排咖喱饭"
+      ],
+      "lat": 31.206338,
+      "lng": 121.398822,
+      "id": "f87956bf-b9d3-50e7-b509-ff45ae237713",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=vRtGlxvjKBc",
+      "youtubeTime": "6:30"
+    },
+    {
+      "name": "3号仓库·创意中国菜（正大广场店）",
+      "address": "上海市浦东新区陆家嘴西路168号正大广场2层西区（近西门）",
+      "district": "浦东",
+      "cuisine": "创意中国菜",
+      "description": "正大广场里的创意中餐厅，视频展示了镜面装饰与现场烤鸭服务。",
+      "dishes": [
+        "烤鸭"
+      ],
+      "lat": 31.238679,
+      "lng": 121.493695,
+      "id": "bb53289d-a5ed-59f7-b2ab-7e2a4ed6a210",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=LlWr2sTEuLM",
+      "youtubeTime": ""
+    },
+    {
+      "name": "大米先生（上海中心店）",
+      "address": "上海市浦东新区花园石桥路158号地下二层B2-5B-2室",
+      "district": "浦东",
+      "cuisine": "中式快餐",
+      "description": "上海中心地下商场里的家常菜快餐店，视频探访了自选现炒午餐。",
+      "dishes": [
+        "家常小炒"
+      ],
+      "lat": 31.235964,
+      "lng": 121.501317,
+      "id": "92a429c0-8e53-5d31-b148-9b276716a18f",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=eAPpSgUy6v0",
+      "youtubeTime": ""
+    },
+    {
+      "name": "静安昆仑大酒店·自助餐",
+      "address": "上海市静安区华山路250号",
+      "district": "静安",
+      "cuisine": "酒店自助餐",
+      "description": "华山路上的酒店餐饮，视频记录了这里的自助餐体验。",
+      "dishes": [
+        "自助餐"
+      ],
+      "lat": 31.221211,
+      "lng": 121.440793,
+      "id": "1efa258a-c679-5f59-ad20-c63dfa36ac46",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=fwAFEvYuUiI",
+      "youtubeTime": ""
+    },
+    {
+      "name": "上海康莱德酒店·自助餐",
+      "address": "上海市黄浦区南京东路789号",
+      "district": "黄浦",
+      "cuisine": "酒店自助餐",
+      "description": "南京东路世茂广场内的酒店餐饮，视频记录了自助餐体验。",
+      "dishes": [
+        "自助餐"
+      ],
+      "lat": 31.236421,
+      "lng": 121.471589,
+      "id": "9274e862-703b-5bb3-b8e0-00002b240374",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=c0Qdn08jA3E",
+      "youtubeTime": ""
+    },
+    {
+      "name": "上海证大美爵酒店·午市套餐",
+      "address": "上海市浦东新区迎春路1199号",
+      "district": "浦东",
+      "cuisine": "酒店餐厅",
+      "description": "迎春路酒店内的午市用餐体验，视频价格与套餐仅代表拍摄时情况。",
+      "dishes": [
+        "午市套餐"
+      ],
+      "lat": 31.228518,
+      "lng": 121.556304,
+      "id": "6ce3c6a8-e8fa-5f26-bae6-09a222e30be0",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=6DYZ1S9WTyQ",
+      "youtubeTime": ""
+    },
+    {
+      "name": "萝春阁·生煎大王",
+      "address": "上海市黄浦区浙江中路427号",
+      "district": "黄浦",
+      "cuisine": "上海生煎",
+      "description": "浙江中路上的生煎店，视频记录了店面、排队与生煎试吃。",
+      "dishes": [
+        "生煎"
+      ],
+      "lat": 31.23846,
+      "lng": 121.473075,
+      "id": "b2300a97-5509-579a-897b-39756f42bd8c",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=DTCvoqqSCKc",
+      "youtubeTime": ""
+    },
+    {
+      "name": "滨寿司（悦荟广场店）",
+      "address": "上海市黄浦区南京东路353号悦荟广场（楼层请以商场导视为准）",
+      "district": "黄浦",
+      "cuisine": "回转寿司",
+      "description": "南京东路悦荟广场内的寿司店，视频展示了商场入口与门店。",
+      "dishes": [
+        "寿司"
+      ],
+      "lat": 31.238663,
+      "lng": 121.479142,
+      "id": "19216358-5ea8-5327-891c-6bd9c8c96fbf",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=gQb6elYXHM0",
+      "youtubeTime": ""
+    },
+    {
+      "name": "永丰面馆（汉口路店）",
+      "address": "上海市黄浦区汉口路320号",
+      "district": "黄浦",
+      "cuisine": "牛羊肉面馆",
+      "description": "汉口路上的面馆，视频明确介绍了这家店的咖喱牛肉汤面。",
+      "dishes": [
+        "咖喱牛肉汤面"
+      ],
+      "lat": 31.237633,
+      "lng": 121.47958,
+      "id": "bc8f81d0-f7a7-59d2-8743-39bb5916c9a8",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=nMS0zJgeDJk",
+      "youtubeTime": ""
+    },
+    {
+      "name": "老正和（四川南路店）",
+      "address": "上海市黄浦区四川南路11号(近延安东路)",
+      "district": "黄浦",
+      "cuisine": "清水派生煎",
+      "description": "四川南路的老店，视频明确展示了店址与生煎、咖喱牛肉汤。",
+      "dishes": [
+        "生煎",
+        "咖喱牛肉汤"
+      ],
+      "lat": 31.233907,
+      "lng": 121.485989,
+      "id": "ce5dc505-121d-5432-993d-a2274ead948e",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=DTCvoqqSCKc",
+      "youtubeTime": ""
+    },
+    {
+      "name": "三两春（浦三路店）",
+      "address": "上海市浦东新区浦三路26-1号（网鱼网咖楼下，近浦东南路）",
+      "district": "浦东",
+      "cuisine": "上海生煎",
+      "description": "浦三路上的传统生煎店，视频展示了门口26号门牌与现场包制生煎。",
+      "dishes": [
+        "生煎"
+      ],
+      "lat": 31.199039,
+      "lng": 121.507185,
+      "id": "9f56b7e5-c48a-5fe7-81f1-a8a4a649364d",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=Hkay3_ojhpM",
+      "youtubeTime": ""
+    },
+    {
+      "name": "东泰祥生煎馆（重庆北路店）",
+      "address": "上海市黄浦区重庆北路188号",
+      "district": "黄浦",
+      "cuisine": "上海生煎",
+      "description": "重庆北路的生煎馆，视频比较了这里与另两家店的生煎风味。",
+      "dishes": [
+        "生煎"
+      ],
+      "lat": 31.228154,
+      "lng": 121.465763,
+      "id": "1d965795-a843-536e-842a-06d0cd6cde39",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=Hkay3_ojhpM",
+      "youtubeTime": ""
+    },
+    {
+      "name": "大壶春（云南南路店）",
+      "address": "上海市黄浦区云南南路89号",
+      "district": "黄浦",
+      "cuisine": "清水派生煎",
+      "description": "云南南路的生煎店，视频明确说明分店所在街道并展示店面。",
+      "dishes": [
+        "生煎"
+      ],
+      "lat": 31.229523,
+      "lng": 121.476336,
+      "id": "9c707c35-9606-54cd-94fa-d19dea31b84f",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=Hkay3_ojhpM",
+      "youtubeTime": ""
+    },
+    {
+      "name": "张亮麻辣烫（上海东育路旗舰店）",
+      "address": "上海市浦东新区东育路227弄1号1层110室、2层215室",
+      "district": "浦东 · 前滩",
+      "cuisine": "麻辣烫",
+      "description": "前滩总部楼下的双层旗舰店，供应自选骨汤麻辣烫。",
+      "dishes": [
+        "骨汤麻辣烫",
+        "鲍鱼",
+        "南美白虾"
+      ],
+      "lat": 31.160246,
+      "lng": 121.476675,
+      "id": "cd2cc51c-e752-54f6-834e-98b4aa11125b",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=U_zAmhvllOw",
+      "youtubeTime": ""
     }
   ]
 }
