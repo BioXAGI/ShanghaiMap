@@ -405,6 +405,42 @@
       "lng": 121.425404,
       "approximate": true,
       "youtubeUrl": "https://www.youtube.com/watch?v=-5qzMWlsajY"
+    },
+    {
+      "name": "台南担仔面·卤肉饭（老虹井路店）",
+      "description": "龙柏新村附近的台式小馆。海上心聲在这里试了台南担仔面搭配豆干和海带丝。",
+      "address": "上海市闵行区老虹井路218号0107室",
+      "district": "闵行 · 老虹井路",
+      "cuisine": "台湾小吃",
+      "dishes": [
+        "台南担仔面",
+        "豆干海带丝",
+        "卤肉饭"
+      ],
+      "id": "ebda22e5-c99a-5d34-bf28-be68775fe860",
+      "lat": 31.177426,
+      "lng": 121.365197,
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=5hpmsmM7BNE",
+      "youtubeTime": "0:56"
+    },
+    {
+      "name": "屏东万峦台式料理（紫藤路店）",
+      "description": "近万象城的台式小馆，招牌是蘸蒜蓉酱的屏东万峦猪脚；营业情况建议出发前确认。",
+      "address": "上海市闵行区紫藤路234号",
+      "district": "闵行 · 紫藤路",
+      "cuisine": "台湾家常菜",
+      "dishes": [
+        "万峦猪脚",
+        "卤肉饭",
+        "四神汤"
+      ],
+      "id": "720006fe-ea02-5ca9-a7e8-d23b09b7b562",
+      "lat": 31.175864,
+      "lng": 121.359964,
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=5hpmsmM7BNE",
+      "youtubeTime": "4:54"
     }
   ]
 }
