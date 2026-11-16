@@ -459,6 +459,42 @@
       "approximate": true,
       "youtubeUrl": "https://www.youtube.com/watch?v=5hpmsmM7BNE",
       "youtubeTime": "8:51"
+    },
+    {
+      "name": "嘉陵市集（嘉陵菜市场）",
+      "description": "徐汇的社区菜市场，门口的“碳水一条街”聚集了各式早点摊。",
+      "address": "上海市徐汇区嘉陵路508号",
+      "district": "徐汇 · 嘉陵路",
+      "cuisine": "市场 / 上海早点",
+      "dishes": [
+        "葱油饼",
+        "老面羌饼",
+        "粢饭糕"
+      ],
+      "lat": 31.144639,
+      "lng": 121.428892,
+      "id": "12d29302-5e3d-5b3b-96bc-bf83974900d7",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=qlrlcFzRsGo",
+      "youtubeTime": "5:15"
+    },
+    {
+      "name": "云和面馆（长乐路店）",
+      "description": "长乐路的本帮面馆，自制白面和菠菜面，搭配蟹粉或时令河虾浇头。",
+      "address": "上海市黄浦区长乐路344号",
+      "district": "黄浦 · 长乐路",
+      "cuisine": "本帮面馆",
+      "dishes": [
+        "蟹粉拌面",
+        "菠菜面",
+        "时令虾三宝拌面"
+      ],
+      "lat": 31.223308,
+      "lng": 121.458078,
+      "id": "ce92ab65-c6c1-5659-b2e1-631bfbe90063",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=vILK7pJPU2I",
+      "youtubeTime": "5:45"
     }
   ]
 }

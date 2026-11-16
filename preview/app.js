@@ -14,7 +14,7 @@ function publicPlace(p){
 }
 function filtered(){const q=$('search').value.trim().toLocaleLowerCase();return places.filter(p=>(!$('district').value||district(p)===$('district').value)&&[p.name,p.description,p.address,p.district,p.cuisine,...p.dishes].join(' ').toLocaleLowerCase().includes(q));}
 function render(){
- const shown=filtered();$('total').textContent=places.length;$('resultCount').textContent=shown.length+' 家餐厅';$('results').replaceChildren();
+ const shown=filtered();$('total').textContent=places.length;$('resultCount').textContent=shown.length+' 个美食地点';$('results').replaceChildren();
  if(!shown.length){const empty=node('div',undefined,'empty');empty.append(node('h2','暂时没有匹配的餐厅'),node('p','换个菜名或街区试试。'),action('清除筛选',clear));$('results').append(empty);}
  shown.forEach((p,i)=>{
   const card=node('article',undefined,'card');card.dataset.placeId=p.id;
@@ -53,6 +53,7 @@ async function load(){
  try{const response=await fetch('data/places.json');if(!response.ok)throw Error();const data=await response.json();if(!Array.isArray(data.places))throw Error();places=data.places.map(publicPlace).filter(Boolean);const seen=new Set();places=places.filter(p=>!seen.has(p.id)&&seen.add(p.id));
  [...new Set(places.map(district).filter(Boolean))].sort().forEach(d=>$('district').add(new Option(d,d)));render();
  if(map&&markers.length)map.fitBounds(L.featureGroup(markers).getBounds(),{padding:[35,35],maxZoom:14});
+ const requested=new URLSearchParams(location.search).get('place');if(requested&&places.some(p=>p.id===requested))openDetails(requested);
  }catch{$('total').textContent='—';$('resultCount').textContent='餐厅信息暂时无法加载';const el=node('div',undefined,'empty');el.append(node('h2','还没加载好'),node('p','请检查连接后重试。'),action('重新加载',()=>location.reload()));$('results').replaceChildren(el);}
 }
 load();
