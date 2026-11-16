@@ -441,6 +441,24 @@
       "approximate": true,
       "youtubeUrl": "https://www.youtube.com/watch?v=5hpmsmM7BNE",
       "youtubeTime": "4:54"
+    },
+    {
+      "name": "宝岛食品大卖场（虹桥店）",
+      "description": "红松路上的台湾食品超市，海上心聲在这里逛了零食、糕点和调味品货架。",
+      "address": "上海市闵行区红松路112号（近金汇路）",
+      "district": "闵行 · 红松路",
+      "cuisine": "台湾食品 / 超市",
+      "dishes": [
+        "凤梨酥",
+        "花生麻粩",
+        "台湾泡面"
+      ],
+      "id": "924a4d01-53e0-5f26-80f7-49527eb65fa7",
+      "lat": 31.184384,
+      "lng": 121.369232,
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=5hpmsmM7BNE",
+      "youtubeTime": "8:51"
     }
   ]
 }
