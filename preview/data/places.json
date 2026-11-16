@@ -705,6 +705,24 @@
       "youtubeTime": "1:30"
     },
     {
+      "name": "玛格萝妮比萨屋（昆山路店）",
+      "address": "上海市虹口区昆山路122号（近乍浦路）",
+      "district": "虹口 · 北外滩",
+      "cuisine": "西式简餐 / 比萨",
+      "description": "昆山路上的社区西餐老店，供应比萨、意面与焗饭。",
+      "dishes": [
+        "比萨",
+        "西西里肉酱芝士烤饭",
+        "海鲜蛋羹烩饭"
+      ],
+      "lat": 31.251616,
+      "lng": 121.483916,
+      "id": "4bc43b24-babe-5d79-bb70-9964b6f0e76b",
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=3lJXuUIhsds",
+      "youtubeTime": "0:50"
+    },
+    {
       "name": "康乐汇社区长者食堂",
       "address": "上海市徐汇区浦北路988号",
       "district": "徐汇",
