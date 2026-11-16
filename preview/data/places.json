@@ -339,6 +339,72 @@
           "url": "https://www.youtube.com/watch?v=gQdrbLl-ghU"
         }
       ]
+    },
+    {
+      "name": "和平饭店龙凤厅",
+      "description": "和平饭店八楼的中餐厅，可俯瞰外滩；视频探访了这里的八宝鸭。",
+      "address": "上海市黄浦区南京东路20号和平饭店北楼8层",
+      "district": "黄浦 · 外滩",
+      "cuisine": "本帮菜 / 酒店餐厅",
+      "dishes": [
+        "八宝鸭"
+      ],
+      "id": "3657422b-a94c-50c7-9d70-dd9b23077785",
+      "lat": 31.240985,
+      "lng": 121.48497,
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=D6lVwIpapEY"
+    },
+    {
+      "name": "沪西老弄堂面馆（广东路店）",
+      "description": "广东路上的本帮面馆，以现煮浇头面见长。探店视频对应广东路店，不是静安店或定西路店。",
+      "address": "上海市黄浦区广东路500号世界贸易大厦1楼02室",
+      "district": "黄浦 · 人民广场",
+      "cuisine": "本帮面馆",
+      "dishes": [
+        "猪肝面",
+        "猪肠汤面",
+        "鳝鱼小菜"
+      ],
+      "id": "63697b1e-b64e-5dec-892b-cdbae63d80ea",
+      "lat": 31.234671,
+      "lng": 121.477477,
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=7qagOHucLR4"
+    },
+    {
+      "name": "沪依小酒馆心意菜",
+      "description": "杨浦的小型家常菜馆，主打本帮风味。视频是多站探店，这里是家常菜一站。",
+      "address": "上海市杨浦区延吉东路143号（近谊园实业西南门）",
+      "district": "杨浦 · 延吉东路",
+      "cuisine": "本帮家常菜",
+      "dishes": [
+        "炒腰花",
+        "鳝丝",
+        "狮子头汤"
+      ],
+      "id": "29cc3c96-ee83-54b7-bc6b-71d11279baab",
+      "lat": 31.294793,
+      "lng": 121.540739,
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=-5qzMWlsajY"
+    },
+    {
+      "name": "福1015（愚园路店）",
+      "description": "愚园路老洋房里的本帮餐厅，兼有经典与时令菜。视频是多站探店，这里是高端餐饮一站。",
+      "address": "上海市长宁区愚园路1015号",
+      "district": "长宁 · 愚园路",
+      "cuisine": "本帮菜 / 老洋房餐厅",
+      "dishes": [
+        "蟹粉炒河虾仁",
+        "枣泥糕",
+        "腰果海苔酥"
+      ],
+      "id": "5aa2b6ad-6ec3-5a68-87a9-5e8f20ae29e9",
+      "lat": 31.2206,
+      "lng": 121.425404,
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=-5qzMWlsajY"
     }
   ]
 }
