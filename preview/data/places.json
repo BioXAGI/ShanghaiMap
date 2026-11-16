@@ -316,6 +316,29 @@
       "approximate": true,
       "youtubeUrl": "",
       "youtubeTime": ""
+    },
+    {
+      "id": "9ae4df26-26d3-4341-8169-89d9da75172f",
+      "name": "沪西清真寺周五集市",
+      "description": "沪西清真寺外、常德路与澳门路一带的清真街头美食集市，通常周五上午至中午较热闹。摊位与出摊时间以当天为准。",
+      "address": "上海市普陀区常德路1328弄3号附近（近澳门路）",
+      "district": "普陀 · 长寿路",
+      "cuisine": "清真街头小吃 / 集市",
+      "dishes": [
+        "现烤馕",
+        "羊肉抓饭",
+        "炭烤羊肉串"
+      ],
+      "lat": 31.24448,
+      "lng": 121.42998,
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=v8tzx9yVagY",
+      "relatedVideos": [
+        {
+          "label": "上海清真美食指南",
+          "url": "https://www.youtube.com/watch?v=gQdrbLl-ghU"
+        }
+      ]
     }
   ]
 }

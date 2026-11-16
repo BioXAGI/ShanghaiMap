@@ -10,7 +10,7 @@ function publicPlace(p){
   // Read only the explicit public catalog. Never load discovery/review or notebook storage.
   if(!p||typeof p.id!=='string'||typeof p.name!=='string'||!p.name.trim()||p.verified===false||p.synthetic||['draft','rejected','needs_human_review','pending'].includes(p.status))return null;
   const text=k=>typeof p[k]==='string'?p[k]:'';
-  return {id:p.id,name:p.name,description:text('description'),address:text('address'),district:text('district'),cuisine:text('cuisine'),dishes:Array.isArray(p.dishes)?p.dishes.filter(d=>typeof d==='string'&&!/(待确认|待核实|unverified)/i.test(d)):[],lat:Number.isFinite(p.lat)&&Math.abs(p.lat)<=90?p.lat:null,lng:Number.isFinite(p.lng)&&Math.abs(p.lng)<=180?p.lng:null,approximate:!!p.approximate,youtubeUrl:text('youtubeUrl'),youtubeTime:text('youtubeTime'),tiktokUrl:text('tiktokUrl')};
+  return {id:p.id,name:p.name,description:text('description'),address:text('address'),district:text('district'),cuisine:text('cuisine'),dishes:Array.isArray(p.dishes)?p.dishes.filter(d=>typeof d==='string'&&!/(待确认|待核实|unverified)/i.test(d)):[],lat:Number.isFinite(p.lat)&&Math.abs(p.lat)<=90?p.lat:null,lng:Number.isFinite(p.lng)&&Math.abs(p.lng)<=180?p.lng:null,approximate:!!p.approximate,youtubeUrl:text('youtubeUrl'),youtubeTime:text('youtubeTime'),tiktokUrl:text('tiktokUrl'),relatedVideos:Array.isArray(p.relatedVideos)?p.relatedVideos.slice(0,3).flatMap(v=>{const s=SourceLinks.youtube(v?.url);return s&&typeof v.label==='string'?[{url:s.url,label:v.label.slice(0,80)}]:[];}):[]};
 }
 function filtered(){const q=$('search').value.trim().toLocaleLowerCase();return places.filter(p=>(!$('district').value||district(p)===$('district').value)&&[p.name,p.description,p.address,p.district,p.cuisine,...p.dishes].join(' ').toLocaleLowerCase().includes(q));}
 function render(){
@@ -39,6 +39,7 @@ function openDetails(id){
  const food=section('特色菜');food.append(node('p',p.dishes.length?p.dishes.join(' · '):'暂无菜品信息','detail-dishes'));
  const videos=section('视频来源'),links=sources(p);if(!links.length)videos.append(node('p','暂无视频链接','help'));
  for(const s of links){const row=node('div',undefined,'source-item');row.append(external('在 '+s.platform+' 观看'+(s.seconds?' · '+SourceLinks.timeLabel(s.seconds):'')+' ↗',s.url,'button source-button'),external(s.url,s.url,'source-url'));videos.append(row);}
+ for(const v of p.relatedVideos)videos.append(external(v.label+' · YouTube ↗',v.url,'source-url'));
  if(!$('details').open)$('details').showModal();
 }
 function clear(){$('search').value='';$('district').value='';render();}

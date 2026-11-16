@@ -1,0 +1,40 @@
+name: Search Shanghai food candidates
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: shanghaimap-manual-discovery
+  cancel-in-progress: false
+
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    defaults:
+      run:
+        working-directory: .github/shanghaimap-discovery
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Run offline discovery tests
+        run: python3 -m unittest discover -s tests -v
+      - name: Search recent Shanghai food videos
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          if [ -z "$YOUTUBE_API_KEY" ]; then
+            echo "::error::Add YOUTUBE_API_KEY in this repository's Actions secrets before running a live search."
+            exit 1
+          fi
+          python3 scripts/discover_youtube.py --cities Shanghai --lookback-days 365 --max-searches 3 --comments-per-video 12 --output shanghai-candidates.json
+          echo 'Download the Shanghai review artifact, unzip it, and import shanghai-candidates.json into the ShanghaiMap preview review queue.' >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shanghai-food-candidates
+          path: .github/shanghaimap-discovery/shanghai-candidates.json
+          retention-days: 7
+          if-no-files-found: error
