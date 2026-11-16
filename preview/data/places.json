@@ -1,0 +1,321 @@
+{
+  "version": 1,
+  "places": [
+    {
+      "id": "965e1367-1c14-4935-83e9-4635dc6f39e3",
+      "name": "谈灵农家柴爿菜饭",
+      "description": "川沙的农家菜饭小店，主打菜饭与本帮家常菜。",
+      "address": "上海市浦东新区川沙新镇水闸南路7号（近川南奉公路）",
+      "district": "浦东新区 · 川沙新镇",
+      "cuisine": "农家菜 / 柴爿菜饭",
+      "dishes": [
+        "走油肉菜饭",
+        "精肉炖蛋",
+        "三鲜汤"
+      ],
+      "lat": 31.17467,
+      "lng": 121.744489,
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=-la1yZTNKSQ&t=354s",
+      "youtubeTime": "354"
+    },
+    {
+      "id": "3f2ee4d2-6296-442c-a106-15e0d254a9c4",
+      "name": "冯爸面馆（陕西南路店）",
+      "description": "陕西南路上的本帮面馆，一碗面配多样浇头。",
+      "address": "上海市陕西南路31号",
+      "district": "",
+      "cuisine": "上海本帮面 / Noodles",
+      "dishes": [
+        "葱烤大排面",
+        "葱油拌面"
+      ],
+      "lat": 31.221381,
+      "lng": 121.457297,
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=j_b_Mefqy6Q",
+      "youtubeTime": ""
+    },
+    {
+      "id": "36468069-2054-46e1-a8b2-958afebf9ea9",
+      "name": "佳乐汤包（黄河路店）",
+      "description": "黄河路上的汤包店，主打小笼与上海点心。",
+      "address": "上海市黄浦区黄河路90号",
+      "district": "黄浦 · 人民广场",
+      "cuisine": "上海汤包 / 小笼",
+      "dishes": [
+        "蟹粉鲜肉汤包",
+        "鲜肉小馄饨",
+        "鸡鸭血汤"
+      ],
+      "lat": 31.236472,
+      "lng": 121.466272,
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=-la1yZTNKSQ",
+      "youtubeTime": "08:29"
+    },
+    {
+      "id": "a347b381-cc0b-49f8-802e-a8b1739c0573",
+      "name": "屋有鲜（米其林一星汤包）",
+      "description": "茂名南路的汤包小店，招牌为汤包与蟹粉点心。",
+      "address": "上海市黄浦区茂名南路7号1F-103室",
+      "district": "黄浦 · 淮海路",
+      "cuisine": "汤包 / 小笼",
+      "dishes": [
+        "汤包",
+        "蟹粉汤包",
+        "蟹肉馄饨"
+      ],
+      "lat": 31.230313,
+      "lng": 121.456826,
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=KoJKz_ojou4",
+      "youtubeTime": "13:17"
+    },
+    {
+      "id": "e31df727-65e4-457e-888b-4de6a20cb0ee",
+      "name": "Madre（番禺路店）",
+      "description": "番禺路的意式社区烘焙店，供应可颂、面包、咖啡与厚底披萨。",
+      "address": "上海市长宁区番禺路504号2幢",
+      "district": "长宁 · 番禺路",
+      "cuisine": "意大利烘焙 / 面包 / 咖啡",
+      "dishes": [
+        "意式可颂",
+        "全麦蜂蜜可颂",
+        "杏子果酱可颂"
+      ],
+      "lat": 31.212667,
+      "lng": 121.424163,
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=KoJKz_ojou4",
+      "youtubeTime": "15:57"
+    },
+    {
+      "id": "18f9430b-9aaf-40de-a3eb-1971ce3ad186",
+      "name": "上海南興園",
+      "description": "邓华东师父主理的南堂风格川菜宴席，九格冷菜与细致火候菜式见长。",
+      "address": "上海市徐汇区淮海中路1728弄12幢",
+      "district": "徐汇 · 衡山路",
+      "cuisine": "川菜 / 南堂宴席",
+      "dishes": [
+        "九格冷菜",
+        "清汤萝卜燕",
+        "宫保鸡丁"
+      ],
+      "lat": 31.20807,
+      "lng": 121.4361,
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=uLkm8HH1avA&list=PLa35D-li5j08",
+      "youtubeTime": "0:13"
+    },
+    {
+      "id": "aa5695c0-36da-415b-a2d4-05b767d298e9",
+      "name": "Rambu（東南亞小館）",
+      "description": "武定路上的东南亚小馆；室内融入峇峇娘惹色彩与东南亚街巷图腾，菜式鲜活奔放。",
+      "address": "上海市静安区武定路966号（近常德路）",
+      "district": "静安 · 武定路",
+      "cuisine": "東南亞 / 娘惹風味",
+      "dishes": [
+        "南洋乌兰饭",
+        "仁当牛尾咸咸圈",
+        "咖椰吐司"
+      ],
+      "lat": 31.2338,
+      "lng": 121.4455,
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=HIaj4Vs6UGg",
+      "youtubeTime": ""
+    },
+    {
+      "id": "ea059d7e-04e7-4dd2-a2bc-d7bba58400e0",
+      "name": "老半斋（福州路店）",
+      "description": "福州路上的老字号淮扬面馆，逛南京东路时可顺路来碗招牌肴肉面。",
+      "address": "上海市黄浦区福州路600号（近浙江中路）",
+      "district": "黄浦 · 南京东路",
+      "cuisine": "淮扬菜 / 老上海面馆",
+      "dishes": [
+        "水晶肴肉面",
+        "炸猪排"
+      ],
+      "lat": 31.232848,
+      "lng": 121.479303,
+      "approximate": true,
+      "youtubeUrl": "https://www.youtube.com/watch?v=i1rR0De5S1c",
+      "youtubeTime": ""
+    },
+    {
+      "id": "3132adf5-9a06-4464-b4a1-8b6ecfbbd850",
+      "name": "Yaya's Pasta（静安寺店）",
+      "description": "静安寺附近的中式意面吧，意面融合中国食材与风味。",
+      "address": "上海市静安区铜仁路329号（1层E区，左侧巷内）",
+      "district": "静安 · 静安寺",
+      "cuisine": "意大利面 / 中式融合",
+      "dishes": [],
+      "lat": 31.2322,
+      "lng": 121.4538,
+      "approximate": true,
+      "youtubeUrl": "",
+      "youtubeTime": ""
+    },
+    {
+      "id": "c8f3334f-d0fa-4ad4-9a5f-1be31f905a80",
+      "name": "渔都老味面（丽园路店）",
+      "description": "黄浦丽园路上的舟山海鲜面馆，汤头现点现煮，剔骨带鱼面应季供应。",
+      "address": "上海市黄浦区丽园路501号A8-103室（近局门路）",
+      "district": "黄浦 · 丽园路",
+      "cuisine": "舟山海鲜面 / 面食",
+      "dishes": [
+        "剔骨带鱼面",
+        "黄鱼面",
+        "海鲜面"
+      ],
+      "lat": 31.207889556884766,
+      "lng": 121.4817123413086,
+      "approximate": true,
+      "youtubeUrl": "",
+      "youtubeTime": ""
+    },
+    {
+      "id": "6cff603c-2f9c-4529-863d-f9ac66c7aead",
+      "name": "简小姐·上海餐厅（静安寺店）",
+      "description": "市中心的实惠本帮菜馆，人均约¥80，红烧肉与糖醋排条受推荐。",
+      "address": "上海市静安区北京西路1700号",
+      "district": "静安 · 静安寺",
+      "cuisine": "上海本帮菜",
+      "dishes": [
+        "红烧肉",
+        "糖醋排条",
+        "咸肉菜饭"
+      ],
+      "lat": 31.225485,
+      "lng": 121.443581,
+      "approximate": true,
+      "youtubeUrl": "",
+      "youtubeTime": ""
+    },
+    {
+      "id": "aca4f730-23ef-4e50-9d1d-72e513e703c8",
+      "name": "简小姐·上海餐厅（肇嘉浜路店）",
+      "description": "市中心的实惠本帮菜馆，人均约¥80，红烧肉与糖醋排条受推荐。",
+      "address": "上海市徐汇区肇嘉浜路730号2层",
+      "district": "徐汇 · 肇嘉浜路",
+      "cuisine": "上海本帮菜",
+      "dishes": [
+        "红烧肉",
+        "糖醋排条",
+        "咸肉菜饭"
+      ],
+      "lat": 31.198717,
+      "lng": 121.447359,
+      "approximate": true,
+      "youtubeUrl": "",
+      "youtubeTime": ""
+    },
+    {
+      "id": "388d1a4d-9b3b-4bac-b725-1559c8dd8874",
+      "name": "沪西老弄堂面馆（静安寺店）",
+      "description": "浓油赤酱风格的上海本帮面馆，浇头选择丰富，饭点人气很旺。",
+      "address": "上海市静安区北京西路1738号",
+      "district": "静安 · 静安寺",
+      "cuisine": "上海本帮面 / Noodles",
+      "dishes": [
+        "蛤蜊猪肝面",
+        "辣肉面",
+        "葱油拌面"
+      ],
+      "lat": 31.225096,
+      "lng": 121.443044,
+      "approximate": true,
+      "youtubeUrl": "",
+      "youtubeTime": ""
+    },
+    {
+      "id": "d256579a-b9f6-4489-b69e-20e8c48220b6",
+      "name": "沪西老弄堂面馆（定西路店）",
+      "description": "浓油赤酱风格的上海本帮面馆，浇头选择丰富，饭点人气很旺。",
+      "address": "上海市长宁区定西路685号101室",
+      "district": "长宁 · 定西路",
+      "cuisine": "上海本帮面 / Noodles",
+      "dishes": [
+        "蛤蜊猪肝面",
+        "辣肉面",
+        "葱油拌面"
+      ],
+      "lat": 31.206976,
+      "lng": 121.423453,
+      "approximate": true,
+      "youtubeUrl": "",
+      "youtubeTime": ""
+    },
+    {
+      "id": "c43bf2e4-5fca-4895-9cde-8d18225fdd90",
+      "name": "莱莱小笼（静安店）",
+      "description": "静安寺旁的小笼店，蟹粉小笼与鲜肉小笼受推荐。",
+      "address": "上海市静安区万航渡路50号900食品城1楼",
+      "district": "静安 · 静安寺",
+      "cuisine": "上海汤包 / 小笼",
+      "dishes": [
+        "蟹粉小笼",
+        "鲜肉小笼"
+      ],
+      "lat": 31.223977,
+      "lng": 121.443636,
+      "approximate": true,
+      "youtubeUrl": "",
+      "youtubeTime": ""
+    },
+    {
+      "id": "d263963b-e9c4-4303-ba1a-b94145e6054d",
+      "name": "潮粥府·潮州菜（大宁中心广场店）",
+      "description": "大宁的潮州菜馆，主推现做干贴南海鱼仔鼎与熟腌蛏子。",
+      "address": "上海市静安区万荣路700号大宁中心广场C1栋1层",
+      "district": "静安 · 大宁",
+      "cuisine": "潮州菜 / 潮汕菜",
+      "dishes": [
+        "干贴南海鱼仔鼎",
+        "熟腌蛏子"
+      ],
+      "lat": 31.2795,
+      "lng": 121.4399,
+      "approximate": true,
+      "youtubeUrl": "",
+      "youtubeTime": ""
+    },
+    {
+      "id": "1afcf305-a1fe-4615-b4da-324b106d0b8c",
+      "name": "一碗阳春·素食面馆（徐汇店）",
+      "description": "徐汇田林的社区纯素面馆，阳春面约¥8一碗。",
+      "address": "上海市徐汇区田林东路360弄1号",
+      "district": "徐汇 · 田林",
+      "cuisine": "纯素面食 / 上海小吃",
+      "dishes": [
+        "阳春面",
+        "八宝辣酱面",
+        "香菇荠菜馄饨"
+      ],
+      "lat": 31.1734,
+      "lng": 121.4281,
+      "approximate": true,
+      "youtubeUrl": "",
+      "youtubeTime": ""
+    },
+    {
+      "id": "5ae8f6f6-dde6-463a-a406-a6801820e8c2",
+      "name": "神更仔·潮汕魂大排挡（汉口路店）",
+      "description": "人民广场附近的潮汕夜宵大排档，主打新鲜海鲜与热炒。",
+      "address": "上海市黄浦区汉口路618号中福大厦1楼",
+      "district": "黄浦 · 人民广场",
+      "cuisine": "潮汕菜 / 潮汕夜宵",
+      "dishes": [
+        "醉美鸡煲",
+        "海肠肉糜捞饭",
+        "沙葱旺牛肉"
+      ],
+      "lat": 31.234135,
+      "lng": 121.478518,
+      "approximate": true,
+      "youtubeUrl": "",
+      "youtubeTime": ""
+    }
+  ]
+}

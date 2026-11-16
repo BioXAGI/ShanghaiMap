@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#214c40">
+<meta name="description" content="上海食记：浏览餐厅、地址、特色菜与对应的 YouTube 或 TikTok 视频。">
+<title>上海食记 · Shanghai Food Map Preview</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><a class="brand" href="./"><span class="brand-mark" aria-hidden="true">食</span><span>上海食记<small>SHANGHAI FOOD MAP</small></span></a><a class="notebook-link" href="notebook.html">我的笔记 <span aria-hidden="true">↗</span></a></header>
+<main>
+<section class="intro"><div><p class="eyebrow">地图预览 · CUSTOMER PREVIEW</p><h1>下一站，上海好味道。</h1><p class="intro-copy">找餐厅，看特色菜。看到喜欢的，就打开地址或视频。</p></div><div class="catalog-count"><strong id="total">—</strong><span>家餐厅等你发现</span></div></section>
+<section class="workspace" aria-label="餐厅列表和地图">
+<aside class="sidebar"><div class="filters"><label for="search">今天想吃什么？</label><input id="search" type="search" placeholder="搜店名、菜品或街区" autocomplete="off"><div class="filter-row"><select id="district" aria-label="筛选区域"><option value="">所有区域</option></select><button id="clear" class="text-button" type="button">重置</button></div><p id="resultCount" class="result-count" role="status">正在加载餐厅…</p></div><div id="results" class="results" aria-label="餐厅列表"></div></aside>
+<div class="map-wrap"><div id="map" aria-label="上海餐厅地图"><div class="map-fallback">正在加载地图…</div></div><div class="map-caption">点击地图上的数字，查看餐厅详情</div><p id="mapStatus" class="map-status" role="status" hidden></p></div>
+</section>
+<p class="footnote">菜品与营业情况可能变化，出发前请核对门店。地图针为参考位置。</p>
+</main>
+<footer><span>上海食记 · 为下一顿好饭留一点期待</span><span>浏览地图无需登录。个人笔记和管理在「我的笔记」中。</span></footer>
+<dialog id="details" aria-labelledby="detailTitle"><div class="dialog-header"><p class="eyebrow">餐厅详情</p><button id="closeDetails" class="close-button" type="button" aria-label="关闭餐厅详情">✕</button></div><div id="detailBody"></div></dialog>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="sources.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
