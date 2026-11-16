@@ -1,0 +1,571 @@
+{
+  "now": "2026-11-01T12:00:00Z",
+  "searches": {
+    "上海 美食探店": {
+      "items": [
+        {
+          "id": {
+            "videoId": "shanghai"
+          }
+        },
+        {
+          "id": {
+            "videoId": "beijing"
+          }
+        },
+        {
+          "id": {
+            "videoId": "old"
+          }
+        },
+        {
+          "id": {
+            "videoId": "future"
+          }
+        },
+        {
+          "id": {
+            "videoId": "unrelated"
+          }
+        },
+        {
+          "id": {
+            "videoId": "invalid"
+          }
+        },
+        {
+          "id": {
+            "videoId": "missing"
+          }
+        },
+        {
+          "id": {
+            "videoId": "shanghai"
+          }
+        },
+        {
+          "id": {}
+        }
+      ]
+    },
+    "上海 苍蝇馆子": {
+      "items": [
+        {
+          "id": {
+            "videoId": "shanghai"
+          }
+        },
+        {
+          "id": {
+            "videoId": "beijing"
+          }
+        },
+        {
+          "id": {
+            "videoId": "old"
+          }
+        },
+        {
+          "id": {
+            "videoId": "future"
+          }
+        },
+        {
+          "id": {
+            "videoId": "unrelated"
+          }
+        },
+        {
+          "id": {
+            "videoId": "invalid"
+          }
+        },
+        {
+          "id": {
+            "videoId": "missing"
+          }
+        },
+        {
+          "id": {
+            "videoId": "shanghai"
+          }
+        },
+        {
+          "id": {}
+        }
+      ]
+    },
+    "上海 本地美食": {
+      "items": [
+        {
+          "id": {
+            "videoId": "shanghai"
+          }
+        },
+        {
+          "id": {
+            "videoId": "beijing"
+          }
+        },
+        {
+          "id": {
+            "videoId": "old"
+          }
+        },
+        {
+          "id": {
+            "videoId": "future"
+          }
+        },
+        {
+          "id": {
+            "videoId": "unrelated"
+          }
+        },
+        {
+          "id": {
+            "videoId": "invalid"
+          }
+        },
+        {
+          "id": {
+            "videoId": "missing"
+          }
+        },
+        {
+          "id": {
+            "videoId": "shanghai"
+          }
+        },
+        {
+          "id": {}
+        }
+      ]
+    },
+    "上海 food tour": {
+      "items": [
+        {
+          "id": {
+            "videoId": "shanghai"
+          }
+        },
+        {
+          "id": {
+            "videoId": "beijing"
+          }
+        },
+        {
+          "id": {
+            "videoId": "old"
+          }
+        },
+        {
+          "id": {
+            "videoId": "future"
+          }
+        },
+        {
+          "id": {
+            "videoId": "unrelated"
+          }
+        },
+        {
+          "id": {
+            "videoId": "invalid"
+          }
+        },
+        {
+          "id": {
+            "videoId": "missing"
+          }
+        },
+        {
+          "id": {
+            "videoId": "shanghai"
+          }
+        },
+        {
+          "id": {}
+        }
+      ]
+    },
+    "北京 美食探店": {
+      "items": [
+        {
+          "id": {
+            "videoId": "shanghai"
+          }
+        },
+        {
+          "id": {
+            "videoId": "beijing"
+          }
+        },
+        {
+          "id": {
+            "videoId": "old"
+          }
+        },
+        {
+          "id": {
+            "videoId": "future"
+          }
+        },
+        {
+          "id": {
+            "videoId": "unrelated"
+          }
+        },
+        {
+          "id": {
+            "videoId": "invalid"
+          }
+        },
+        {
+          "id": {
+            "videoId": "missing"
+          }
+        },
+        {
+          "id": {
+            "videoId": "shanghai"
+          }
+        },
+        {
+          "id": {}
+        }
+      ]
+    },
+    "北京 苍蝇馆子": {
+      "items": [
+        {
+          "id": {
+            "videoId": "shanghai"
+          }
+        },
+        {
+          "id": {
+            "videoId": "beijing"
+          }
+        },
+        {
+          "id": {
+            "videoId": "old"
+          }
+        },
+        {
+          "id": {
+            "videoId": "future"
+          }
+        },
+        {
+          "id": {
+            "videoId": "unrelated"
+          }
+        },
+        {
+          "id": {
+            "videoId": "invalid"
+          }
+        },
+        {
+          "id": {
+            "videoId": "missing"
+          }
+        },
+        {
+          "id": {
+            "videoId": "shanghai"
+          }
+        },
+        {
+          "id": {}
+        }
+      ]
+    },
+    "北京 本地美食": {
+      "items": [
+        {
+          "id": {
+            "videoId": "shanghai"
+          }
+        },
+        {
+          "id": {
+            "videoId": "beijing"
+          }
+        },
+        {
+          "id": {
+            "videoId": "old"
+          }
+        },
+        {
+          "id": {
+            "videoId": "future"
+          }
+        },
+        {
+          "id": {
+            "videoId": "unrelated"
+          }
+        },
+        {
+          "id": {
+            "videoId": "invalid"
+          }
+        },
+        {
+          "id": {
+            "videoId": "missing"
+          }
+        },
+        {
+          "id": {
+            "videoId": "shanghai"
+          }
+        },
+        {
+          "id": {}
+        }
+      ]
+    },
+    "北京 food tour": {
+      "items": [
+        {
+          "id": {
+            "videoId": "shanghai"
+          }
+        },
+        {
+          "id": {
+            "videoId": "beijing"
+          }
+        },
+        {
+          "id": {
+            "videoId": "old"
+          }
+        },
+        {
+          "id": {
+            "videoId": "future"
+          }
+        },
+        {
+          "id": {
+            "videoId": "unrelated"
+          }
+        },
+        {
+          "id": {
+            "videoId": "invalid"
+          }
+        },
+        {
+          "id": {
+            "videoId": "missing"
+          }
+        },
+        {
+          "id": {
+            "videoId": "shanghai"
+          }
+        },
+        {
+          "id": {}
+        }
+      ]
+    }
+  },
+  "videos": [
+    {
+      "id": "shanghai",
+      "snippet": {
+        "title": " 上海  美食\n探店 ",
+        "publishedAt": "2026-06-01T00:00:00Z",
+        "description": "  合成测试资料\n食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食",
+        "channelTitle": "Synthetic channel"
+      },
+      "statistics": {
+        "viewCount": "123"
+      }
+    },
+    {
+      "id": "beijing",
+      "snippet": {
+        "title": "BEIJING food tour",
+        "publishedAt": "2026-06-01T00:00:00Z",
+        "description": "  合成测试资料\n食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食",
+        "channelTitle": "Synthetic channel"
+      }
+    },
+    {
+      "id": "old",
+      "snippet": {
+        "title": "上海 old",
+        "publishedAt": "2025-12-31T00:00:00Z",
+        "description": "  合成测试资料\n食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食",
+        "channelTitle": "Synthetic channel"
+      }
+    },
+    {
+      "id": "future",
+      "snippet": {
+        "title": "上海 future",
+        "publishedAt": "2026-12-01T00:00:00Z",
+        "description": "  合成测试资料\n食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食",
+        "channelTitle": "Synthetic channel"
+      }
+    },
+    {
+      "id": "unrelated",
+      "snippet": {
+        "title": "Tokyo food",
+        "publishedAt": "2026-06-01T00:00:00Z",
+        "description": "  合成测试资料\n食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食",
+        "channelTitle": "Synthetic channel"
+      }
+    },
+    {
+      "id": "invalid",
+      "snippet": {
+        "title": "上海 invalid",
+        "publishedAt": "2026-bad",
+        "description": "  合成测试资料\n食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食食",
+        "channelTitle": "Synthetic channel"
+      }
+    }
+  ],
+  "comments": {
+    "shanghai": {
+      "": {
+        "items": [
+          {
+            "id": "thread-c1",
+            "snippet": {
+              "topLevelComment": {
+                "id": "c1",
+                "snippet": {
+                  "textDisplay": "地址在测试路一号",
+                  "authorDisplayName": "Synthetic private author"
+                }
+              }
+            }
+          },
+          {
+            "id": "thread-spam",
+            "snippet": {
+              "topLevelComment": {
+                "id": "spam",
+                "snippet": {
+                  "textDisplay": "好吃 https://example.invalid/promo",
+                  "authorDisplayName": "Synthetic private author"
+                }
+              }
+            }
+          },
+          {
+            "id": "thread-blank",
+            "snippet": {
+              "topLevelComment": {
+                "id": "blank",
+                "snippet": {
+                  "textDisplay": " ",
+                  "authorDisplayName": "Synthetic private author"
+                }
+              }
+            }
+          },
+          {
+            "id": "thread-irrelevant",
+            "snippet": {
+              "topLevelComment": {
+                "id": "irrelevant",
+                "snippet": {
+                  "textDisplay": "Great video",
+                  "authorDisplayName": "Synthetic private author"
+                }
+              }
+            }
+          },
+          {
+            "id": "thread-long",
+            "snippet": {
+              "topLevelComment": {
+                "id": "long",
+                "snippet": {
+                  "textDisplay": "好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃好吃",
+                  "authorDisplayName": "Synthetic private author"
+                }
+              }
+            }
+          }
+        ],
+        "nextPageToken": "page2"
+      },
+      "page2": {
+        "items": [
+          {
+            "id": "thread-c2",
+            "snippet": {
+              "topLevelComment": {
+                "id": "c2",
+                "snippet": {
+                  "textDisplay": "推荐生煎",
+                  "authorDisplayName": "Synthetic private author"
+                }
+              }
+            }
+          },
+          {
+            "id": "thread-c3",
+            "snippet": {
+              "topLevelComment": {
+                "id": "c3",
+                "snippet": {
+                  "textDisplay": "店名是什么",
+                  "authorDisplayName": "Synthetic private author"
+                }
+              }
+            }
+          },
+          {
+            "id": "thread-c4",
+            "snippet": {
+              "topLevelComment": {
+                "id": "c4",
+                "snippet": {
+                  "textDisplay": "人均多少元",
+                  "authorDisplayName": "Synthetic private author"
+                }
+              }
+            }
+          }
+        ],
+        "nextPageToken": "page3"
+      },
+      "page3": {
+        "items": [
+          {
+            "id": "thread-never",
+            "snippet": {
+              "topLevelComment": {
+                "id": "never",
+                "snippet": {
+                  "textDisplay": "推荐面馆",
+                  "authorDisplayName": "Synthetic private author"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "beijing": {
+      "": {
+        "error_status": 403
+      }
+    }
+  }
+}
